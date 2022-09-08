@@ -1,7 +1,7 @@
 # Online Bank
 
 This project has been developed with Html, CSS and Javascript
-<img src="images/login-page">
+<img src="images/login-page" width="50%">
 It has a mocked Json server that display all different bank accounts.
 
 Besides listing the bank accounts, it also has a form to create transactions between banka accounts.
