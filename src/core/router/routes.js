@@ -8,9 +8,9 @@ const baseRoutes = {
 
 export const routes = {
   ...baseRoutes,
-  account: id => (id ? `${baseRoutes.account}?id=${id}` : baseRoutes.account),
-  movements: id =>
+  account: (id) => (id ? `${baseRoutes.account}?id=${id}` : baseRoutes.account),
+  movements: (id) =>
     id ? `${baseRoutes.movements}?id=${id}` : baseRoutes.movements,
-  transfer: id =>
+  transfer: (id) =>
     id ? `${baseRoutes.transfer}?id=${id}` : baseRoutes.transfer,
 };
